@@ -1,0 +1,32 @@
+.segment-group {
+    width: 100%;
+}
+
+.segment-header {
+    width: 100%;
+    height: 50rpx;
+    display: flex;
+    border: 1rpx solid #e4e4e4;
+    
+}
+.segment-item {
+    flex: 1;
+    border-right: 1rpx solid #e4e4e4;
+    font-size: 28rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.segment-item:last-of-type {
+    border: none
+}
+
+.segment-header .active {
+    background: #1aad16;
+    color: white;
+}
+.segment-body {
+    width: 100%;
+    height: 400px;
+}
